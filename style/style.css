@@ -40,9 +40,15 @@ body {
 .text-secondary {
   color: var(--color-secondary);
 }
-
+.text-center {
+  text-align: center;
+}
 .text-size-lg {
   font-size: 48px;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 5px 5px #f3f3f3;
 }
 .flex {
   display: flex;
@@ -89,6 +95,10 @@ body {
 .mb-2 {
   margin-bottom: 2vh;
 }
+.py-5 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
 .btn {
   border: none;
   background: transparent;
@@ -99,6 +109,13 @@ body {
   height: 40px;
   background-color: var(--color-secondary);
   color: #fff;
+}
+.btn-secondary {
+  border-radius: 34px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: #f4823d;
 }
 /* banner start */
 
@@ -114,3 +131,7 @@ nav ul li a:hover {
 }
 
 /* banner end  */
+
+#cards {
+  min-height: 45vh;
+}
