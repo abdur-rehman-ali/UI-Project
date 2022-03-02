@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* variables */
+:root {
+  --bg-color: #fff;
+  --color-secondary: #fbb122;
+}
+
+.border {
+  border: 0px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Globals classes */
+.font-poppins {
+  font-family: var(--font);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-70 {
+  width: 70%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-30 {
+  width: 30%;
+}
+.px {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+.py-2 {
+  padding-top: 2vh;
+}
+
+/* navbar start */
+
+header {
+  min-height: 95vh;
+  background-image: url("../assets/imgs/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40vw;
+}
+nav ul li a:hover {
+  color: var(--color-secondary);
+}
+/* navbar end  */
