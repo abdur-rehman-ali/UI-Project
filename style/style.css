@@ -4,7 +4,7 @@
 :root {
   --bg-color: #fff;
   --color-secondary: #fbb122;
-  --text-color:#9a9a9a
+  --text-color: #9a9a9a;
 }
 
 .border {
@@ -35,9 +35,21 @@ body {
   font-weight: bolder;
 }
 
-.text-primary
-{
+.bg-primary {
+  background-color: #f4823d;
+}
+.bg-secondary {
+  background-color: #f25e5e;
+}
+
+.text-primary {
   color: var(--text-color);
+}
+.testimonials-text {
+  color: #f9bab5;
+}
+.text-white {
+  color: white;
 }
 .text-uppercase {
   text-transform: uppercase;
@@ -45,11 +57,17 @@ body {
 .text-secondary {
   color: var(--color-secondary);
 }
+.text-tertiary {
+  color: #f4823d;
+}
 .text-center {
   text-align: center;
 }
 .text-size-lg {
   font-size: 48px;
+}
+.text-size-md {
+  font-size: 36px;
 }
 
 .box-shadow {
@@ -74,15 +92,19 @@ body {
 .w-100 {
   width: 100%;
 }
-
+.w-80 {
+  width: 80%;
+}
 .w-70 {
   width: 70%;
 }
 .w-50 {
   width: 50%;
 }
-.w-40
-{
+.w-45 {
+  width: 45%;
+}
+.w-40 {
   width: 40%;
 }
 .w-30 {
@@ -92,8 +114,7 @@ body {
   width: 20%;
 }
 
-.w-7
-{
+.w-7 {
   width: 7vw;
 }
 .px {
@@ -103,12 +124,14 @@ body {
 .py-2 {
   padding-top: 2vh;
 }
-.pr-1
-{
+.pr-1 {
   padding-right: 1vw;
 }
 .mb-20 {
-  margin-bottom: 20vh;
+  margin-bottom: 20vh !important;
+}
+.mb-10 {
+  margin-bottom: 10vh !important;
 }
 .mb-2 {
   margin-bottom: 2vh;
@@ -126,6 +149,9 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+.horizontal-center {
+  margin: 0 auto;
 }
 .btn {
   border: none;
@@ -168,13 +194,26 @@ nav ul li a:hover {
 /* card end  */
 
 /* about start  */
-#about
-{
-  background-image: url('../assets/imgs/left-bg-decor.png');
+#about {
+  background-image: url("../assets/imgs/left-bg-decor.png");
   background-repeat: no-repeat;
   background-size: 35vh;
 }
-.about-left img
-{
+.about-left img {
   width: 25vw;
 }
+/* about end  */
+
+/* testimonials start  */
+#testimonials {
+  min-height: 90vh;
+}
+.testimonials-content {
+  position: relative;
+}
+.testimonials-content img {
+  position: absolute;
+  top: -70px;
+  left: -70px;
+}
+/* testimonials end  */

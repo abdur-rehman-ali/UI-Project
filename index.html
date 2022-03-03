@@ -1,152 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="./style/style.css" />
-  </head>
-  <body>
-    <!-- banner start  -->
-    <header class="border px">
-      <!-- navbar start-->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-      <nav class="flex border w-100 py-2 mb-20">
-        <div class="logo border w-20">
-          <a href=""><h1>LAVA</h1></a>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <!-- banner start  -->
+  <header class="border px">
+    <!-- navbar start-->
+
+    <nav class="flex border w-100 py-2 mb-20">
+      <div class="logo border w-20">
+        <a href="">
+          <h1>LAVA</h1>
+        </a>
+      </div>
+      <ul class="border nav-links flex flex-wrap space-between w-50">
+        <li class="border nav-link-item text-uppercase">
+          <a href="">Home</a>
+        </li>
+        <li class="border nav-link-item text-uppercase">
+          <a href="">About</a>
+        </li>
+        <li class="border nav-link-item text-uppercase">
+          <a href="">Testimonials</a>
+        </li>
+        <li class="border nav-link-item text-uppercase">
+          <a href="">Dropdown</a>
+        </li>
+        <li class="border nav-link-item text-uppercase">
+          <a href="">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar end  -->
+
+    <!-- banner content start  -->
+    <div class="border banner-content w-50">
+      <h1 class="font-bold text-size-lg mb-2">
+        Simple App that <br />
+        we <span class="text-uppercase text-secondary">create</span>
+      </h1>
+      <p class="mb-2 text-primary">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum atque
+        libero omnis fuga cum suscipit voluptate perspiciatis perferendis
+        voluptatibus reiciendis.
+      </p>
+      <button class="btn btn-primary text-uppercase">Know us better</button>
+    </div>
+    <!-- banner content end  -->
+  </header>
+  <!-- banner end  -->
+
+  <!-- card section start  -->
+  <section id="cards" class="border px flex space-between mb-20">
+    <div class="card1 border w-30 text-center py-5 box-shadow">
+      <img src="./assets/imgs/features-icon-1.png" alt="image1" class="mb-2" />
+      <h3 class="mb-2">Trend analysis</h3>
+      <p class="mb-2 text-primary">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+        accusamus?
+      </p>
+      <button class="btn btn-secondary text-uppercase">Read more</button>
+    </div>
+    <div class="card1 border w-30 text-center py-5 box-shadow">
+      <img src="./assets/imgs/features-icon-2.png" alt="image2" class="mb-2" />
+      <h3 class="mb-2">Site optimization</h3>
+      <p class="mb-2 text-primary">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+        accusamus?
+      </p>
+      <button class="btn btn-secondary text-uppercase">Discover more</button>
+    </div>
+    <div class="card1 border w-30 text-center py-5 box-shadow">
+      <img src="./assets/imgs/features-icon-3.png" alt="image3" class="mb-2" />
+      <h3 class="mb-2">Email Design</h3>
+      <p class="mb-2 text-primary">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+        accusamus?
+      </p>
+      <button class="btn btn-secondary text-uppercase">More details</button>
+    </div>
+  </section>
+
+  <!-- card section end  -->
+
+  <!-- about section start  -->
+
+  <section id="about" class="border px flex space-between mb-20 py-10">
+    <div class="border about-left w-30">
+      <img src="./assets/imgs/left-image.png" alt="about-left-image" class="vertical-center" />
+    </div>
+    <div class="border about-right w-50">
+      <div class="border about-right-item flex py-2">
+        <div class="about-right-image pr-1">
+          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
         </div>
-        <ul class="border nav-links flex flex-wrap space-between w-50">
-          <li class="border nav-link-item text-uppercase">
-            <a href="">Home</a>
-          </li>
-          <li class="border nav-link-item text-uppercase">
-            <a href="">About</a>
-          </li>
-          <li class="border nav-link-item text-uppercase">
-            <a href="">Testimonials</a>
-          </li>
-          <li class="border nav-link-item text-uppercase">
-            <a href="">Dropdown</a>
-          </li>
-          <li class="border nav-link-item text-uppercase">
-            <a href="">Contact us</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- navbar end  -->
-
-      <!-- banner content start  -->
-      <div class="border banner-content w-50">
-        <h1 class="font-bold text-size-lg mb-2">
-          Simple App that <br />
-          we <span class="text-uppercase text-secondary">create</span>
-        </h1>
-        <p class="mb-2 text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum atque
-          libero omnis fuga cum suscipit voluptate perspiciatis perferendis
-          voluptatibus reiciendis.
-        </p>
-        <button class="btn btn-primary text-uppercase">Know us better</button>
-      </div>
-      <!-- banner content end  -->
-    </header>
-    <!-- banner end  -->
-
-    <!-- card section start  -->
-    <section id="cards" class="border px flex space-between mb-20">
-      <div class="card1 border w-30 text-center py-5 box-shadow">
-        <img
-          src="./assets/imgs/features-icon-1.png"
-          alt="image1"
-          class="mb-2"
-        />
-        <h3 class="mb-2">Trend analysis</h3>
-        <p class="mb-2 text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-          accusamus?
-        </p>
-        <button class="btn btn-secondary text-uppercase">Read more</button>
-      </div>
-      <div class="card1 border w-30 text-center py-5 box-shadow">
-        <img
-          src="./assets/imgs/features-icon-2.png"
-          alt="image2"
-          class="mb-2"
-        />
-        <h3 class="mb-2">Site optimization</h3>
-        <p class="mb-2 text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-          accusamus?
-        </p>
-        <button class="btn btn-secondary text-uppercase">Discover more</button>
-      </div>
-      <div class="card1 border w-30 text-center py-5 box-shadow">
-        <img
-          src="./assets/imgs/features-icon-3.png"
-          alt="image3"
-          class="mb-2"
-        />
-        <h3 class="mb-2">Email Design</h3>
-        <p class="mb-2 text-primary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-          accusamus?
-        </p>
-        <button class="btn btn-secondary text-uppercase">More details</button>
-      </div>
-    </section>
-
-    <!-- card section end  -->
-
-    <!-- about section start  -->
-
-    <section id="about" class="border px flex space-between mb-20 py-10">
-      <div class="border about-left w-30">
-        <img src="./assets/imgs/left-image.png" alt="about-left-image" class="vertical-center"/>
-      </div>
-      <div class="border about-right w-50">
-        <div class="border about-right-item flex py-2">
-          <div class="about-right-image pr-1">
-            <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7"/>
-          </div>
-          <div class="about-right-content border">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p class="text-primary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, minus. Saepe ratione quae beatae, facilis quidem
-            </p>
-          </div>
-        </div>
-        <div class="border about-right-item flex py-2">
-          <div class="about-right-image pr-1">
-            <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
-          </div>
-          <div class="about-right-content border">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p class="text-primary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-              numquam?
-            </p>
-          </div>
-        </div>
-        <div class="border about-right-item flex py-2">
-          <div class="about-right-image pr-1">
-            <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
-          </div>
-          <div class="about-right-content border">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p class="text-primary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-              numquam?
-            </p>
-          </div>
-        </div>
-        
+        <div class="about-right-content border">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p class="text-primary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, minus. Saepe ratione quae beatae, facilis
+            quidem
+          </p>
         </div>
       </div>
-    </section>
+      <div class="border about-right-item flex py-2">
+        <div class="about-right-image pr-1">
+          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
+        </div>
+        <div class="about-right-content border">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p class="text-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            numquam?
+          </p>
+        </div>
+      </div>
+      <div class="border about-right-item flex py-2">
+        <div class="about-right-image pr-1">
+          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
+        </div>
+        <div class="about-right-content border">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p class="text-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            numquam?
+          </p>
+        </div>
+      </div>
 
-    <!-- about section end  -->
-  </body>
+    </div>
+    </div>
+  </section>
+
+  <!-- about section end  -->
+
+  <!-- testimonails section start  -->
+  <section id="testimonials" class="border px">
+    <div class="border testimonials-heading text-center w-70 horizontal-center py-5 mb-10">
+      <h1 class="py-2 text-size-md ">What They Think <span class="text-tertiary ">About Us</span> </h1>
+      <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore ratione facere
+        provident dicta minus mollitia suscipit rem, recusandae consequuntur.</p>
+    </div>
+
+    <div class="testimonials-items border text-white flex space-between w-80">
+      <div class="testimonials-item  text-center w-45 py-10">
+        <div class="border testimonials-content  py-5 bg-secondary">
+          <img src="./assets/imgs/testimonial-author-1.png" alt="">
+          <div class="review py-2">* * * * *</div>
+          <div class="name py-2">Jonathan smart</div>
+          <div class="feedback py-2 testimonials-text">
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut reiciendis cum vel.</blockquote>
+          </div>
+          <div class="role py-2 testimonials-text">Besta CTO</div>
+        </div>
+      </div>
+      <div class="testimonials-item  text-center w-45 py-10">
+        <div class="border testimonials-content  py-5 bg-secondary">
+          <img src="./assets/imgs/testimonial-author-1.png" alt="">
+          <div class="review py-2">* * * * *</div>
+          <div class="name py-2">Jonathan smart</div>
+          <div class="feedback py-2 testimonials-text">
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut reiciendis cum vel.</blockquote>
+          </div>
+          <div class="role py-2 testimonials-text">Besta CTO</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonails section end  -->
+</body>
+
 </html>
