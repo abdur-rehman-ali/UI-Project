@@ -34,8 +34,7 @@ body {
 .font-bold {
   font-weight: bolder;
 }
-.bg-white
-{
+.bg-white {
   background-color: #fff;
 }
 .bg-primary {
@@ -127,8 +126,7 @@ body {
   padding-left: 15vw;
   padding-right: 15vw;
 }
-.px-2
-{
+.px-2 {
   padding-left: 2vw;
   padding-right: 2vw;
 }
@@ -232,8 +230,7 @@ nav ul li a:hover {
   top: -70px;
   left: -70px;
 }
-.box
-{
+.box {
   width: 70px;
   height: 70px;
   border-radius: 8px;
@@ -242,20 +239,18 @@ nav ul li a:hover {
 }
 
 /* testimonials end  */
-footer
-{
-  background-image: url('../assets/imgs/footer-bg.png');
+footer {
+  background-image: url("../assets/imgs/footer-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 80vh;
 }
 
-input,textarea
-{
+input,
+textarea {
   padding: 12px 35px;
   border: 1px solid #efefef;
 }
-textarea
-{
+textarea {
   resize: none;
 }
