@@ -8,7 +8,7 @@
 }
 
 .border {
-  border: 0px solid black;
+  border: 1px solid black;
 }
 
 * {
@@ -144,6 +144,10 @@ body {
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
+.py-20 {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
 
 .vertical-center {
   position: relative;
@@ -171,6 +175,7 @@ body {
   color: white;
   background-color: #f4823d;
 }
+
 /* banner start */
 
 header {
@@ -206,7 +211,7 @@ nav ul li a:hover {
 
 /* testimonials start  */
 #testimonials {
-  min-height: 90vh;
+  min-height: 95vh;
 }
 .testimonials-content {
   position: relative;
@@ -216,4 +221,13 @@ nav ul li a:hover {
   top: -70px;
   left: -70px;
 }
+.box
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: #f25e5e;
+  margin-bottom: 2px;
+}
+
 /* testimonials end  */
