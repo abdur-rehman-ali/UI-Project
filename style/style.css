@@ -142,8 +142,14 @@ body {
 .mb-10 {
   margin-bottom: 10vh !important;
 }
+.mb-5 {
+  margin-bottom: 5vh !important;
+}
 .mb-2 {
   margin-bottom: 2vh;
+}
+.mr-2 {
+  margin-right: 2vh;
 }
 .py-5 {
   padding-top: 5vh;
@@ -253,4 +259,13 @@ textarea {
 }
 textarea {
   resize: none;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #efefef !important;
+  text-align: center;
+  display: inline-block;
 }
