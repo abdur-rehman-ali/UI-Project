@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="border">
   <!-- banner start  -->
   <header class="border px">
     <!-- navbar start-->
@@ -46,8 +46,8 @@
     <!-- navbar end  -->
 
     <!-- banner content start  -->
-    <div class="border banner-content w-50">
-      <h1 class="font-bold text-size-lg mb-2">
+    <div class="border banner-content banner-content-width">
+      <h1 class="font-bold heading1 mb-2">
         Simple App that <br />
         we <span class="text-uppercase text-secondary">create</span>
       </h1>
@@ -63,8 +63,8 @@
   <!-- banner end  -->
 
   <!-- card section start  -->
-  <section id="cards" class="border px flex space-between mb-20">
-    <div class="card1 border w-30 text-center py-5 box-shadow">
+  <section id="cards" class="border px flex flex-wrap space-between mb-20">
+    <div class="card1 border card-width text-center py-5 box-shadow mb-2">
       <img src="./assets/imgs/features-icon-1.png" alt="image1" class="mb-2" />
       <h3 class="mb-2">Trend analysis</h3>
       <p class="mb-2 text-primary">
@@ -73,7 +73,7 @@
       </p>
       <button class="btn btn-secondary text-uppercase">Read more</button>
     </div>
-    <div class="card1 border w-30 text-center py-5 box-shadow">
+    <div class="card1 border card-width  text-center py-5 box-shadow mb-2">
       <img src="./assets/imgs/features-icon-2.png" alt="image2" class="mb-2" />
       <h3 class="mb-2">Site optimization</h3>
       <p class="mb-2 text-primary">
@@ -82,7 +82,7 @@
       </p>
       <button class="btn btn-secondary text-uppercase">Discover more</button>
     </div>
-    <div class="card1 border w-30 text-center py-5 box-shadow">
+    <div class="card1 border card-width text-center py-5 box-shadow mb-2">
       <img src="./assets/imgs/features-icon-3.png" alt="image3" class="mb-2" />
       <h3 class="mb-2">Email Design</h3>
       <p class="mb-2 text-primary">
@@ -97,14 +97,14 @@
 
   <!-- about section start  -->
 
-  <section id="about" class="border px flex space-between mb-20 py-10">
-    <div class="border about-left w-30">
+  <section id="about" class="border px flex flex-wrap space-between mb-20 py-10 text-center">
+    <div class="border about-left about-left-width">
       <img src="./assets/imgs/left-image.png" alt="about-left-image" class="vertical-center" />
     </div>
-    <div class="border about-right w-50">
+    <div class="border about-right about-right-width">
       <div class="border about-right-item flex py-2">
         <div class="about-right-image pr-1">
-          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
+          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border about-right-icon" />
         </div>
         <div class="about-right-content border">
           <h3>Lorem, ipsum dolor.</h3>
@@ -116,7 +116,7 @@
       </div>
       <div class="border about-right-item flex py-2">
         <div class="about-right-image pr-1">
-          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
+          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border about-right-icon" />
         </div>
         <div class="about-right-content border">
           <h3>Lorem, ipsum dolor.</h3>
@@ -128,7 +128,7 @@
       </div>
       <div class="border about-right-item flex py-2">
         <div class="about-right-image pr-1">
-          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border w-7" />
+          <img src="./assets/imgs/about-icon-01.png" alt="about-icon" class="border about-right-icon" />
         </div>
         <div class="about-right-content border">
           <h3>Lorem, ipsum dolor.</h3>
@@ -147,15 +147,15 @@
 
   <!-- testimonails section start  -->
   <section id="testimonials" class="border px">
-    <div class="border testimonials-heading text-center w-70 horizontal-center py-5 mb-10">
+    <div class="border testimonials-heading text-center testimonials-heading-width horizontal-center py-5 mb-10">
       <h1 class="py-2 text-size-md ">What They Think <span class="text-tertiary ">About Us</span> </h1>
       <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempore ratione facere
         provident dicta minus mollitia suscipit rem, recusandae consequuntur.</p>
     </div>
 
-    <div class="border flex">
-      <div class="testimonials-items border text-white flex space-between w-80">
-        <div class="testimonials-item  text-center w-45 py-10">
+    <div class="border flex flex-wrap">
+      <div class="testimonials-items border text-white flex flex-wrap space-between testimonials-items-width">
+        <div class="testimonials-item testimonials-item1 text-center testimonials-item-width py-10">
           <div class="border testimonials-content  py-5 bg-secondary">
             <img src="./assets/imgs/testimonial-author-1.png" alt="">
             <div class="review py-2">* * * * *</div>
@@ -166,7 +166,7 @@
             <div class="role py-2 testimonials-text">Besta CTO</div>
           </div>
         </div>
-        <div class="testimonials-item  text-center w-45 py-10">
+        <div class="testimonials-item testimonials-item2 text-center testimonials-item-width py-10">
           <div class="border testimonials-content  py-5 bg-secondary">
             <img src="./assets/imgs/testimonial-author-1.png" alt="">
             <div class="review py-2">* * * * *</div>
@@ -178,11 +178,11 @@
           </div>
         </div>
       </div>
-      <div class="border horizontal-center py-20 text-white">
-        <div class="box box1 text-center">
+      <div class="border boxes horizontal-center py-20 text-white">
+        <div class="box text-center">
           <i class="fa fa-angle-left" style="font-size:24px"></i>
         </div>
-        <div class="box box2 text-center">
+        <div class="box text-center">
           <i class="fa fa-angle-right" style="font-size:24px"></i>
         </div>
       </div>
@@ -193,18 +193,18 @@
   <!-- footer start  -->
   <footer>
     <div class="footer-content px py-20 flex">
-      <div class="border footer-left w-50 bg-white py-5 px-2 text-center box-shadow1">
+      <div class="border footer-left footer-left-width bg-white py-5 px-2 text-center box-shadow1">
         <form action="#">
-          <div class="flex space-between mb-2">
-            <input type="text" name="" id="" placeholder="Full name">
-            <input type="email" name="" id="" placeholder="E-mail Address">
+          <div class="form-inputs flex space-between ">
+            <input type="text" name="" id="" placeholder="Full name" class="form-input-width mb-2">
+            <input type="email" name="" id="" placeholder="E-mail Address" class="form-input-width mb-2">
           </div>
           <textarea name="" id="" cols="30" rows="10" class="w-100 mb-2" placeholder="Your message"></textarea>
 
           <input type="button" value="Send Message now" class="btn btn-secondary horizontal-center">
         </form>
       </div>
-      <div class="border footer-right text-white px-2 py-2">
+      <div class="border footer-right footer-right-width text-white px-2 py-2">
         <h1 class="mb-2">More about <span class="text-secondary">Lava</span> </h1>
         <p class="mb-2 text-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit a, amet
           tenetur
