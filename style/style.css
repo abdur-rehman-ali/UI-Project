@@ -62,8 +62,7 @@ body {
 .text-tertiary {
   color: #f4823d;
 }
-.text-footer
-{
+.text-footer {
   color: #fbc8c3;
 }
 .text-center {
@@ -274,7 +273,6 @@ textarea {
   display: inline-block;
 }
 
-.line
-{
+.line {
   border: 0.5px solid #fbc8c3;
 }
