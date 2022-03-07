@@ -303,9 +303,7 @@ textarea {
 textarea {
   resize: none;
 }
-.banner-content{
-  padding-top: 15vh;
-}
+
 
 .circle {
   height: 30px;
@@ -398,6 +396,9 @@ textarea {
   nav{
     justify-content: space-between;
     
+  }
+  .banner-content{
+    padding-top: 20vh;
   }
   .hamburger{
     display: block;
