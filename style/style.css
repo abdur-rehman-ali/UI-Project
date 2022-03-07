@@ -303,6 +303,9 @@ textarea {
 textarea {
   resize: none;
 }
+.banner-content{
+  padding-top: 15vh;
+}
 
 .circle {
   height: 30px;
@@ -368,7 +371,7 @@ textarea {
     text-align: center;
   }
   header {
-    background-size: 100%;
+    background-size: 300px;
   }
   .heading1 {
     font-size: 36px;
@@ -384,6 +387,7 @@ textarea {
     padding-left: 5vw;
     padding-right: 5vw;
     
+    
   }
   .active{
     display: block !important;
@@ -393,6 +397,7 @@ textarea {
   }
   nav{
     justify-content: space-between;
+    
   }
   .hamburger{
     display: block;
